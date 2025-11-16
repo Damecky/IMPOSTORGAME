@@ -1,0 +1,23 @@
+export const WORDS = [
+  "cebula","marchewka","pomidor","ogórek kiszony","schabowy",
+  "pierogi ruskie","zapiekanka","rosół","żurek","kebab",
+  "hamburger","hot dog","frytki","naleśniki","pączek",
+  "sernik","lody śmietankowe","kawa mrożona","herbata cytrynowa","tost z serem",
+  "jajecznica","pizza hawajska","banan","arbuz","kiwi","winogrona",
+  "truskawka","malina","mango",
+  "bieganie","skakanie","ziewanie","chrapanie","tańczenie","śpiewanie",
+  "drzemka","prasowanie","zmywanie naczyń","odkurzanie","gotowanie",
+  "mycie okien","wspinanie się","łapanie muchy","wąchanie kwiatów","gryzienie lodu",
+  "meme","bekaz tego","cringe","sigma","NPC","scrollowanie TikToka",
+  "fryz karakan","kot w kartonie","pies który płacze","zabawa w influencerów",
+  "banan w skarpetach","kawa z mlekiem owsianym","parówki sojowe","kapibarunia","oversharing",
+  "klawiatura","myszka komputerowa","pilot do telewizora","pudełko po butach","kubek termiczny",
+  "poduszka","kołdra","szczoteczka do zębów","nożyczki","kartka papieru","zeszyt",
+  "długopis","latarka","bateria AA","parasol","gumka recepturka","kabel USB",
+  "szkoła","sklep spożywczy","galeria handlowa","przystanek autobusowy","dworzec",
+  "lotnisko","garaż","kuchnia","łazienka","salon","piwnica","strych","ogród","boisko","siłownia","kino","teatr","hotel","szpital","poczta",
+  "kot","pies","świnka morska","królik","koń","lis","pingwin","wilk","jeż","panda","lama","surykatka","papuga","żółw","delfin","kangur",
+  "detektyw","pirat","rycerz","czarodziej","strażak","policjant","astronauta","ninja","zombie","wampir","kosmita",
+  "kierowca autobusu","mechanik","nauczyciel","programista","barista","ogrodnik",
+  "radość","złość","nudaaaa","tajemnica","sekret","granica","czas","cisza","muzyka","internet","kryzys","chaos","sen","marzenie"
+];
