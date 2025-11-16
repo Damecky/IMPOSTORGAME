@@ -1,0 +1,39 @@
+:root {
+  --bg: #0f1112;
+  --panel: #141617;
+  --accent: #b84a3b;
+  --text: #e9e6e1;
+}
+
+body,html,#root { height:100%; margin:0; font-family:Inter, system-ui, sans-serif; background: radial-gradient(circle at 10% 10%, #0b0c0d, #070708); color:var(--text); }
+
+.splash { display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; gap:20px; position:relative; }
+.logo-wrap { width:300px; height:300px; display:flex; align-items:center; justify-content:center; position:relative; }
+.logo-img { width:70%; animation: fadeZoom 2.2s ease forwards; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.6)); border-radius:8px; }
+.scan-line { position:absolute; left:0; right:0; height:4px; top:50%; transform:translateY(-50%); background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent); animation: scan 2.2s linear infinite; opacity:0.9; border-radius:2px; }
+.skip-btn { position:absolute; bottom:30px; background:transparent; border:1px solid rgba(255,255,255,0.08); color:var(--text); padding:8px 12px; border-radius:8px; cursor:pointer; }
+
+@keyframes fadeZoom {
+  0%{ opacity:0; transform:scale(0.85) }
+  60%{ opacity:1; transform:scale(1.03) }
+  100%{ opacity:1; transform:scale(1) }
+}
+@keyframes scan {
+  0%{ left:-30% }
+  100%{ left:130% }
+}
+
+/* proste style lobby/room */
+.lobby, .create-room, .join-room, .room-screen { padding:28px; max-width:1000px; margin:20px auto; background: rgba(255,255,255,0.02); border-radius:12px; box-shadow: 0 8px 30px rgba(0,0,0,0.6); }
+.lobby h1 { margin:0 0 12px 0; }
+.lobby-buttons button { margin-right:12px; padding:10px 16px; border-radius:10px; border:none; background:var(--accent); color:white; cursor:pointer; }
+.row { margin-top:12px; }
+input { display:block; margin:8px 0; padding:8px 10px; border-radius:8px; background: #0b0c0d; border: 1px solid rgba(255,255,255,0.04); color:var(--text); }
+
+.room-grid { display:flex; gap:20px; }
+.players-list { width:260px; padding:12px; background: rgba(255,255,255,0.02); border-radius:10px; }
+.players-list ul { list-style:none; padding:0; margin:0; }
+.players-list li { display:flex; gap:8px; align-items:center; padding:6px 0; border-bottom:1px dashed rgba(255,255,255,0.02); }
+
+.main-panel { flex:1; padding:14px; background: rgba(255,255,255,0.01); border-radius:10px; }
+.host-controls button { margin-right:8px; padding:8px 12px; }
